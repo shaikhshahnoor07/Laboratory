@@ -1,5 +1,10 @@
-//Write a program to display the following pattern
-
+/* Write a program to display the following pattern
+A
+BC
+DEF
+GHIJ
+KLMNO
+*/
 
 public class Pattern_9 {
 
