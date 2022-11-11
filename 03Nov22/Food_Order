@@ -5,7 +5,7 @@ package javaApp;
 
 import java.util.Scanner;
 
-public class Q_no_1 {
+public class Food_Order {
 
 	public static void main(String[] args) {
 		demo();
