@@ -6,7 +6,7 @@ GHIJ
 KLMNO
 */
 
-public class Pattern_9 {
+public class Char_Pattern {
 
 	public static void main(String[] args) {
 		int i,j;
