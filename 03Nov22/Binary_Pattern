@@ -5,7 +5,7 @@
 10101
 */
 
-public class Pattern_7 {
+public class Binary_Pattern {
 
 	public static void main(String[] args) {
     int i,j;
