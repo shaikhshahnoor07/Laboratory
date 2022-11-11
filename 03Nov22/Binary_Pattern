@@ -1,4 +1,9 @@
-//Write a program to display the following pattern
+/*  Write a program to display the following pattern
+   01
+  101
+ 0101
+10101
+*/
 
 public class Pattern_7 {
 
