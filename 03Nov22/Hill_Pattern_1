@@ -1,6 +1,11 @@
-//Write a program to display the following pattern 
-
-public class Pattern_5 {
+/* Write a program to display the following pattern 
+    *
+   ***
+  *****
+ *******
+*********
+*/
+public class Hill_Pattern_1 {
 
 	public static void main(String[] args) {
 		int i,j;
