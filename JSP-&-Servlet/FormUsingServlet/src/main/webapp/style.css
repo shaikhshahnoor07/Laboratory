@@ -1,0 +1,112 @@
+@charset "UTF-8";
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+body {
+  background: linear-gradient(to bottom, #3498db, #e74c3c); /* Use your desired gradient colors */
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+
+h1 {
+  text-align: center;
+}
+
+form {
+  margin-top: 20px;
+}
+
+table {
+  width: 100%;
+}
+
+td {
+  padding: 10px;
+}
+
+input[type="text"],
+select {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="radio"] {
+  margin-right: 5px;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+button[type="reset"] {
+  background-color: #f44336;
+}
+
+button[type="submit"]:hover,
+button[type="reset"]:hover {
+  background-color: #45a049;
+}
+
+p {
+  margin: 5px 0;
+}
+/* Style for input fields */
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 25px; /* Adjust the radius to your preference */
+  font-size: 16px;
+}
+
+/* Style for buttons */
+button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 25px; /* Adjust the radius to match the input fields */
+  cursor: pointer;
+  margin: 10px 0;
+}
+
+button[type="reset"] {
+  background-color: #e74c3c;
+}
+
+/* Add more styles as needed */
+
+
+/* You can add more styles as needed */

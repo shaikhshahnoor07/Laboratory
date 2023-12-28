@@ -1,0 +1,42 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+
+	<style type="text/css">
+	.back-img{
+	background: url("img/bgImg.jpg") center center no-repeat;
+    background-size: cover;
+	width: 100%;
+    height: 56.25vw; /* 16:9 aspect ratio */
+	}
+	.text-center h1{
+	 font-size: 60px;
+    margin-top: 150px;
+	}
+	.text-center p{
+	font-size: 30px;
+	margin-top: -10px;
+	}
+	</style>
+
+<meta charset="UTF-8">
+<title>Home Page</title>
+<%@include file="all_component/allcss.jsp" %>
+</head>
+<body>
+		
+	<%@ include file="all_component/navbar.jsp" %>	
+	<div class="container-fluid back-img">
+	<div class="text-center">
+		<h1>E-Notes</h1><br>
+		<p>Save Your Notes</p>
+		<a href="login.jsp" Class="btn btn-light">Login</a>
+		<a href="register.jsp" Class="btn btn-light">Register</a>
+	</div>
+	</div>
+	<%@include file="all_component/footer.jsp" %>
+		
+</body>
+</html>

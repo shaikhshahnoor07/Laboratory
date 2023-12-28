@@ -1,0 +1,60 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+
+	<style type="text/css">
+    .back-img {
+        background: url("img/bgImg.jpg") center center no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 56.25vw; /* 16:9 aspect ratio */
+    }
+
+    .text-center h1 {
+        font-size: 60px;
+        margin-top: 150px;
+    }
+
+    .text-center h3 {
+        font-size: 20px;
+        margin-top: -35px;
+    }
+
+/* Custom Button Styles */
+    
+    
+
+    .custom-btn:hover {
+        background-color: #0056b3; /* Change the hover background color as needed */
+        color: #fff; /* White text color on hover */
+    }
+</style>
+
+
+<meta charset="UTF-8">
+<title>Home Page</title>
+<%@include file="all_component/allcss.jsp" %>
+</head>
+<body>
+		
+	<%@ include file="all_component/navbar.jsp" %>	
+	<div class="container-fluid back-img">
+	<div class="text-center">
+		<h1>E-Notes</h1><br>
+		<h3>Save Your Notes Online</h3>
+		 <a href="login.jsp" style="display: inline-block; padding: 10px 20px; font-size: 18px; text-align: center; text-decoration: none; cursor: pointer; border: 3px solid #000; border-radius: 2px; color: #000; background-color: #007bff; transition: background-color 0.3s, color 0.3s;"
+                onmouseover="this.style.backgroundColor='#0056b3'; this.style.color='#fff';"
+                onmouseout="this.style.backgroundColor='#007bff'; this.style.color='#000';"
+            >Login</a>
+         <a href="register.jsp" style="display: inline-block; padding: 10px 20px; font-size: 18px; text-align: center; text-decoration: none; cursor: pointer; border: 3px solid #000; border-radius: 2px; color: #000; background-color: #007bff; transition: background-color 0.3s, color 0.3s;"
+                onmouseover="this.style.backgroundColor='#0056b3'; this.style.color='#fff';"
+                onmouseout="this.style.backgroundColor='#007bff'; this.style.color='#000';"
+            >Register</a>
+	</div>
+	</div>
+	<%@include file="all_component/footer.jsp" %>
+		
+</body>
+</html>

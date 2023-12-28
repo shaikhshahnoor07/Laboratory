@@ -1,0 +1,28 @@
+body {
+	margin: 0;
+	padding: 0;
+	min-height: 100vh;
+	/* Minimum height of the viewport */
+	display: flex;
+	flex-direction: column;
+}
+
+.container {
+	flex: 1;
+	/* Make the container grow to fill the available space */
+}
+
+.bg-custom {
+	background: #001F3F;
+}
+
+.navbar .nav-item .nav-link {
+	font-size: 18px;
+	color: white;
+}
+
+.navbar-custom .nav-item:hover .nav-link {
+	background: #bdbdbd;
+	color: black;
+	border-radius: 5px;
+}
